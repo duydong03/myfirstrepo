@@ -4,16 +4,23 @@
 # User-specific files
 *.suo
 *.user
+<<<<<<< HEAD
 *.userosscache
+=======
+>>>>>>> 2ndmater
 *.sln.docstates
 
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
+<<<<<<< HEAD
 [Rr]eleases/
 x64/
 x86/
+=======
+x64/
+>>>>>>> 2ndmater
 build/
 bld/
 [Bb]in/
@@ -126,6 +133,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
@@ -139,6 +147,24 @@ publish/
 !**/packages/build/
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
 #!**/packages/repositories.config
+=======
+## TODO: Comment the next line if you want to checkin your
+## web deploy settings but do note that will include unencrypted
+## passwords
+#*.pubxml
+
+# NuGet Packages Directory
+packages/*
+## TODO: If the tool you use requires repositories.config
+## uncomment the next line
+#!packages/repositories.config
+
+# Enable "build/" folder in the NuGet Packages folder since
+# NuGet packages use it for MSBuild targets.
+# This line needs to be after the ignore of the build folder
+# (and the packages folder if the line above has been uncommented)
+!packages/build/
+>>>>>>> 2ndmater
 
 # Windows Azure Build Output
 csx/
@@ -183,6 +209,7 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+<<<<<<< HEAD
 # =========================
 # Operating System Files
 # =========================
@@ -229,3 +256,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+=======
+# LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
+>>>>>>> 2ndmater
